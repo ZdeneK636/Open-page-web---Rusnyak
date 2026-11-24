@@ -1,0 +1,49 @@
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('woltk-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Hlavní nadpis */
+h1 {
+    color: gold;
+}
+
+/* Oblast pro karty (vedle sebe) */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* Vzhled jedné karty */
+.card {
+    background-color: #222;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+}
+
+/* Nadpis v kartě */
+.card h3 {
+    color: orange;
+    margin-top: 0;
+}
+.card img {
+    width: 50px;      /* Šířka obrázku */
+    height: 50px;     /* Výška obrázku */
+    border-radius: 5px; /* Mírně zakulacené rohy */
+    border: 1px solid gold; /* Zlatý rámeček okolo obrázku */
+    margin-bottom: 10px; /* Odsazení pod obrázkem, aby nebyl nalepený na textu */
+}
+ul {
+    text-align: left;
+}
