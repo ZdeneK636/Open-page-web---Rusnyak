@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('woltk-image.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/09/world-of-warcraft-wrath-of-the-lich-king-classic-cinematic-remaster.jpg?w=1200&h=628&fit=crop');
     background-size: cover;
     background-position: center;
 }
